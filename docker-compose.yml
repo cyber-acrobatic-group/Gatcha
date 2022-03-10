@@ -17,6 +17,7 @@ services:
     container_name: sample-mysql
     volumes:
       - ./docker/mysql/data:/var/lib/mysql
+      - ./docker/mysql/migration:/app/mysql/migration
     ports:
       - 13330:3306
     environment:
