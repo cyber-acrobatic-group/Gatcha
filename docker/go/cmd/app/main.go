@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"github.com/cyber-acrobatic-group/Gatcha/docker/go/cmd/app/router"
+)
 
 func main() {
-    fmt.Println("Hello, 世界")
+	router.Setting()
 }
