@@ -1,4 +1,4 @@
-module github.com/cyber-acrobatic-group/Gatcha
+module github.com/cyber-acrobatic-group/Gatcha/docker/go
 
 go 1.17
 
