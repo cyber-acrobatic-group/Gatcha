@@ -13,4 +13,5 @@ func Setting() {
 		photo := photo.CreateHandler(context)
 		context.JSON(http.StatusOK, photo)
 	})
+	router.Run(":3000")
 }
